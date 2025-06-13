@@ -19,7 +19,7 @@
 
 1. Read the [Documentation](https://docs.github.com/en/code-security)
 
-2. Go through [Microsoft Training](https://learn.microsoft.com/en-us/training/paths/github-advanced-security)
+2. Go through Microsoft Training [Part 1](https://learn.microsoft.com/en-us/training/paths/github-advanced-security) and [Part 2](https://learn.microsoft.com/en-us/training/paths/github-advanced-security-2)
 
 3. Watch [YouTube Video](https://www.youtube.com/watch?v=-6EdqFcPmfI) *(Optional)*
 
