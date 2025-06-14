@@ -34,7 +34,28 @@
 
 - Differentiate the security features that come automatically for open source projects, and what features are available
   when GHAS is paired with GHEC or GHES
+Code Scanning (e.g., CodeQL)
+Displays alerts for vulnerabilities found by code scanning tools like CodeQL.
+Dependabot
+Shows information from:
+Dependabot Alerts (vulnerable dependencies)
+Dependabot Security Updates (auto PRs to fix them)
+Secret Scanning
+Lists detected secrets (like credentials or tokens) found in repositories.
+  
 - Describe the features and benefits of Security Overview
+🔐 Secret Scanning
+Keeps you aware of secret leaks by detecting hardcoded credentials, tokens, and keys in your code.
+Automatically revokes leaked secrets (for supported providers), reducing the risk of exploitation.
+📦 Dependabot
+Keeps you aware of security threats within dependencies by alerting you to known vulnerabilities in packages your project uses.
+Helps you remediate issues with automatic pull requests for secure versions.
+🛡️ Code Scanning (e.g., CodeQL)
+Keeps you aware of security vulnerabilities in your code, such as:
+SQL injection
+Cross-site scripting (XSS)
+Other common coding flaws that can lead to exploits.
+
 - Describe the differences between secret scanning and code scanning
 - Describe how secret scanning, code scanning, and Dependabot create a more secure software development life cycle
 - Contrast a security scenario with isolated security review and an advanced scenario, with security integrated into
